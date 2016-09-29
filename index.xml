@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leivince John</title>
+    <link>https://devinceble.github.io/</link>
+    <description>Recent content on Leivince John</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 29 Sep 2016 09:54:18 +0800</lastBuildDate>
+    <atom:link href="https://devinceble.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>https://devinceble.github.io/about/</link>
+      <pubDate>Thu, 29 Sep 2016 09:54:18 +0800</pubDate>
+      
+      <guid>https://devinceble.github.io/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m Leivince John a Developer at Agila Innovations Inc.
+I do weird and crazy things&amp;hellip; #hackstrong!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>welcome</title>
+      <link>https://devinceble.github.io/blog/welcome/</link>
+      <pubDate>Thu, 29 Sep 2016 09:53:50 +0800</pubDate>
+      
+      <guid>https://devinceble.github.io/blog/welcome/</guid>
+      <description>&lt;p&gt;Welcome to my first post on my profile blog.
+I will be blogging on my work everyday but I&amp;rsquo;m not a writer I only write codes.&lt;/p&gt;
+
+&lt;p&gt;The concept of my blog is to try to document my work flow and studies.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
