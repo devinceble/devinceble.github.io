@@ -6,8 +6,32 @@
     <description>Recent content in Blog on Leivince John</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 29 Sep 2016 09:53:50 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 30 Sep 2016 15:13:25 +0800</lastBuildDate>
     <atom:link href="https://devinceble.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rise of the Coders</title>
+      <link>https://devinceble.github.io/blog/rise-of-the-coders/</link>
+      <pubDate>Fri, 30 Sep 2016 15:13:25 +0800</pubDate>
+      
+      <guid>https://devinceble.github.io/blog/rise-of-the-coders/</guid>
+      <description>&lt;p&gt;Been coding for a while and making a drawer feature on both
+IOS and Android.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s been awhile when I&amp;rsquo;m pump up doing code and design.&lt;/p&gt;
+
+&lt;p&gt;Doing both UX at the same time is a bit more work cause
+it may not work on both platforms. I&amp;rsquo;m following both standards
+and work my way on a mixed standard cause it fells more suitable
+for both platform.&lt;/p&gt;
+
+&lt;p&gt;More tickets to solve for the business feature of our Application
+and sprint 1 of our weekly sprints is done but its 80% done.
+having our designers pump up to redesign something if it does not fit the UX.&lt;/p&gt;
+
+&lt;p&gt;Now back to hacking and coding.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>welcome</title>
