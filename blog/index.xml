@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Leivince John</title>
-    <link>https://devinceble.github.io/blog/</link>
-    <description>Recent content in Blog on Leivince John</description>
+    <title>Blog-rss on Leivince John</title>
+    <link>https://devinceble.github.io/blog/index.xml</link>
+    <description>Recent content in Blog-rss on Leivince John</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 30 Sep 2016 15:13:25 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 09 Oct 2016 13:26:33 +0800</lastBuildDate>
     <atom:link href="https://devinceble.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rise Of Redux</title>
+      <link>https://devinceble.github.io/blog/rise-of-redux/</link>
+      <pubDate>Sun, 09 Oct 2016 13:26:33 +0800</pubDate>
+      
+      <guid>https://devinceble.github.io/blog/rise-of-redux/</guid>
+      <description>&lt;p&gt;The thing is redux is complex but simple.&lt;/p&gt;
+
+&lt;p&gt;Now will start coding with redux inside react native. its my first time to use actions store and reducers so it might be challenging at first.&lt;/p&gt;
+
+&lt;p&gt;The first thing is go to &lt;a href=&#34;http://redux.js.org&#34;&gt;http://redux.js.org&lt;/a&gt; all examples might be on react.js only not on react-native but it will also work in native.
+My first fight with this style or framework of coding is it makes things complex how in the world can I use this on my advantage&amp;hellip;&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;Hey I&amp;rsquo;m working on projects I will continue blugging-&amp;gt; &amp;ldquo;blog with a bug&amp;rdquo; about redux when I&amp;rsquo;m done.&lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;:vimwarrior out:wq!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Rise of the Coders</title>
