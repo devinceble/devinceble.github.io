@@ -13,7 +13,32 @@
   </style>
 </head>
 <body>
-  <div class="paper container">
+
+  <nav class="border fixed split-nav">
+    <div class="nav-brand">
+      <h3><a href="#">vimwarrior.io</a></h3>
+    </div>
+    <div class="collapsible">
+      <input id="collapsible1" type="checkbox" name="collapsible1">
+      <button>
+      <label for="collapsible1">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </label>
+      </button>
+      <div class="collapsible-body">
+        <ul class="inline">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#tools">I Use</a></li>
+          <li><a href="#keyboards">Keyboards</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="main" class="paper container">
     <h2>Hello</h2>
     <h3>I'm Leivince John (vimwarrior)</h3>
     <p>
@@ -50,11 +75,11 @@
     <p>Mechanical Keyboard Hobbyist</p>
   </div>
   <p/>
-  <div class="paper container">
+  <div id="projects" class="paper container">
     <h4>Projects</h4>
 
     <div class="row">
-      <div class="col-6 col">
+      <div class="md-6 col">
         <div class="card">
           <div class="card-body">
             <h4 class="card-title">Dr Mark's Hygenie</h4>
@@ -91,7 +116,7 @@
         </div>
       </div>
 
-      <div class="col-6 col">
+      <div class="md-6 col">
         <div class="card">
           <div class="card-body">
             <h4 class="card-title">Watermarquee.com</h4>
@@ -130,29 +155,81 @@
     </div>
   </div>
   <p/>
-  <div class="paper container">
-    <h4>I Use:</h4>
+  <div id="tools" class="paper container">
+    <h4>I Use</h4>
     <p>Arch for Desktop - Used on Ryzen 2400G + RX580 + 16GB RAM</p>
     <p>Ubuntu for Server</p>
     <p>VM Windows 10 - for test using KVM to passthrough GPU for development</p>
     <p>OSX - Mac Mini building IOS's App</p>
     <div class="row">
-      <div class="col-4 col">
+      <div class="md-6 col">
         <ul>
-          <li>golang</li>
-          <li>rust</li>
-          <li>nodejs</li>
-          <li>ruby</li>
-          <li>deno</li>
-          <li>typescript</li>
-          <li>flutter</li>
-          <li>react-native</li>
-          <li>nextjs</li>
-          <li>c#</li>
-          <li>gdscript<li>
+          <li>
+            golang
+            <ul>
+              <li>gin</li>
+            </ul>
+          </li>
+          <li>
+            rust
+            <ul>
+              <li>actix</li>
+            </ul>
+          </li>
+          <li>
+            nodejs
+            <ul>
+              <li>fastify</li>
+              <li>express</li>
+              <li>hapi</li>
+            </ul>
+          </li>
+          <li>
+            ruby
+            <ul>
+              <li>padrino</li>
+              <li>senatra</li>
+              <li>rails</li>
+            </ul>
+          </li>
+          <li>
+            deno
+          </li>
+          <li>
+            typescript/javascript
+            <ul>
+              <li>
+                react
+                <ul>
+                  <li>react-native</li>
+                  <li>nextjs</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            dart
+            <ul>
+              <li>flutter</li>
+            </ul>
+          </li>
+          <li>
+            css
+            <ul>
+              <li>bootstrap 4</li>
+              <li>blueprintjs</li>
+              <li>fontawesome</li>
+            </ul>
+          </li>
+          <li>
+            c#
+          </li>
+          <li>
+            gdscript
+          </li>
         </ul>
       </div>
-      <div class="col-4 col">
+      <div class="md-3 col">
         <ul>
           <li>mongodb</li>
           <li>mariadb</li>
@@ -162,7 +239,7 @@
           <li>nginx</li>
         </ul>
       </div>
-      <div class="col-4 col">
+      <div class="md-3 col">
         <ul>
           <li>vim</li>
           <li>neovim</li>
@@ -180,11 +257,11 @@
     </div>
   </div>
   <p/>
-  <div class="paper container">
+  <div id="keyboards" class="paper container">
     <h4>Keyboards</h4>
 
     <div class="row">
-      <div class="col-6 col">
+      <div class="md-6 col">
         <div class="card">
           <img 
             class="image-top"
@@ -198,7 +275,7 @@
         </div>
       </div>
 
-      <div class="col-6 col">
+      <div class="md-6 col">
         <div class="card">
           <div class="card-body">
             <h4 class="card-title">Acrylic Arisu</h4>
@@ -214,7 +291,7 @@
     </div>
 
     <div class="row">
-      <div class="col-6 col">
+      <div class="md-6 col">
         <div class="card">
           <img 
             class="image-top"
@@ -228,7 +305,7 @@
         </div>
       </div>
 
-      <div class="col-6 col">
+      <div class="md-6 col">
         <div class="card">
           <div class="card-body">
             <h4 class="card-title">WKL Tofu</h4>
@@ -245,7 +322,7 @@
     
 
     <div class="row">
-      <div class="col-6 col">
+      <div class="md-6 col">
         <div class="card">
           <img 
             class="image-top"
