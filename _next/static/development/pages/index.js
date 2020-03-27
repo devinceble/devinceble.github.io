@@ -1406,25 +1406,46 @@ var Home = function Home() {
       lineNumber: 12,
       columnNumber: 5
     }
-  }), __jsx(_components_projects__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
       columnNumber: 5
     }
-  }), __jsx(_components_tools__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), __jsx(_components_projects__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
       columnNumber: 5
     }
-  }), __jsx(_components_keyboards__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
+      columnNumber: 5
+    }
+  }), __jsx(_components_tools__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 5
+    }
+  }), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 5
+    }
+  }), __jsx(_components_keyboards__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
       columnNumber: 5
     }
   }));
