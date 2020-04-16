@@ -20,7 +20,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var Profile = function Profile() {
   return __jsx("div", {
     id: "main",
-    className: "container nes-container with-title is-rounded",
+    className: "container nes-container with-title is-rounded is-dark",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -145,7 +145,47 @@ var Profile = function Profile() {
       lineNumber: 55,
       columnNumber: 11
     }
-  }, "Mechanical Keyboard Hobbyist"))));
+  }, "Mechanical Keyboard Hobbyist"), __jsx("section", {
+    className: "icon-list",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 11
+    }
+  }, __jsx("i", {
+    className: "nes-logo",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 13
+    }
+  }), "\xA0", __jsx("i", {
+    className: "nes-jp-logo",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 13
+    }
+  }), "\xA0", __jsx("i", {
+    className: "snes-logo",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 13
+    }
+  }), "\xA0", __jsx("i", {
+    className: "snes-jp-logo",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 13
+    }
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Profile);
@@ -172,7 +212,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var Projects = function Projects() {
   return __jsx("div", {
     id: "projects",
-    className: "container nes-container with-title is-rounded",
+    className: "container nes-container with-title is-rounded is-dark",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -209,7 +249,7 @@ var Projects = function Projects() {
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: "nes-container with-title",
+    className: "nes-container with-title is-dark",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -224,7 +264,7 @@ var Projects = function Projects() {
       lineNumber: 19,
       columnNumber: 13
     }
-  }, "Dr Mark's Hygenie"), __jsx("h5", {
+  }, "Dr Mark's Hygenie"), __jsx("p", {
     className: "card-subtitle",
     __self: _this,
     __source: {
@@ -307,7 +347,7 @@ var Projects = function Projects() {
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: "nes-container with-title",
+    className: "nes-container with-title is-dark",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -322,7 +362,7 @@ var Projects = function Projects() {
       lineNumber: 57,
       columnNumber: 13
     }
-  }, "Watermarquee.com"), __jsx("h5", {
+  }, "Watermarquee.com"), __jsx("p", {
     className: "card-subtitle",
     __self: _this,
     __source: {
