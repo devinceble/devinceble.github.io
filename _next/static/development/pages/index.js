@@ -20,7 +20,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var Profile = function Profile() {
   return __jsx("div", {
     id: "main",
-    className: "nes-container with-title is-rounded",
+    className: "container nes-container with-title is-rounded",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -29,26 +29,53 @@ var Profile = function Profile() {
     }
   }, __jsx("h2", {
     className: "title nes-text is-primary",
+    style: {
+      position: 'relative',
+      fontSize: 22,
+      top: -10
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
       columnNumber: 7
     }
-  }, "Hello"), __jsx("h2", {
-    className: "nes-text",
+  }, "Hello"), __jsx("div", {
+    className: "row",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 16,
       columnNumber: 7
     }
-  }, "I'm Leivince John (vimwarrior)"), __jsx("p", {
+  }, __jsx("div", {
+    className: "col-md-12",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 7
+      lineNumber: 17,
+      columnNumber: 9
+    }
+  }, __jsx("h2", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 11
+    }
+  }, "I'm Leivince John (vimwarrior)"), __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 11
+    }
+  }), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 11
     }
   }, __jsx("a", {
     className: "nes-btn is-warning",
@@ -56,8 +83,8 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 9
+      lineNumber: 21,
+      columnNumber: 13
     }
   }, "Mail"), "\xA0", __jsx("a", {
     className: "nes-btn is-error",
@@ -66,8 +93,8 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 9
+      lineNumber: 28,
+      columnNumber: 13
     }
   }, "Instagram"), "\xA0", __jsx("a", {
     className: "nes-btn is-success",
@@ -76,8 +103,8 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 9
+      lineNumber: 36,
+      columnNumber: 13
     }
   }, "Keyboards"), "\xA0", __jsx("a", {
     className: "nes-btn is-primary",
@@ -86,32 +113,39 @@ var Profile = function Profile() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 9
+      lineNumber: 44,
+      columnNumber: 13
     }
-  }, "I work at Drip Creative")), __jsx("h4", {
-    className: "nes-text is-primary",
+  }, "I work at Drip Creative")), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 7
+      lineNumber: 52,
+      columnNumber: 11
+    }
+  }), __jsx("h4", {
+    className: "nes-text",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 11
     }
   }, "Lead Software Engineer"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 7
+      lineNumber: 54,
+      columnNumber: 11
     }
   }, "14 years in Software Development"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 7
+      lineNumber: 55,
+      columnNumber: 11
     }
-  }, "Mechanical Keyboard Hobbyist"));
+  }, "Mechanical Keyboard Hobbyist"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Profile);
@@ -138,7 +172,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var Projects = function Projects() {
   return __jsx("div", {
     id: "projects",
-    className: "nes-container with-title is-rounded",
+    className: "container nes-container with-title is-rounded",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -147,6 +181,11 @@ var Projects = function Projects() {
     }
   }, __jsx("h2", {
     className: "title nes-text is-primary",
+    style: {
+      position: 'relative',
+      fontSize: 22,
+      top: -10
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -154,11 +193,11 @@ var Projects = function Projects() {
       columnNumber: 7
     }
   }, "Projects"), __jsx("div", {
-    className: "row ",
+    className: "row",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 16,
       columnNumber: 7
     }
   }, __jsx("div", {
@@ -166,7 +205,7 @@ var Projects = function Projects() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 17,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -174,67 +213,67 @@ var Projects = function Projects() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 13
+      lineNumber: 18,
+      columnNumber: 11
     }
   }, __jsx("h1", {
     className: "nes-text title",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 15
+      lineNumber: 19,
+      columnNumber: 13
     }
   }, "Dr Mark's Hygenie"), __jsx("h5", {
     className: "card-subtitle",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 15
+      lineNumber: 20,
+      columnNumber: 13
     }
   }, "Lead Software Engineer"), __jsx("div", {
     className: "card-text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 13
     }
   }, __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 17
+      lineNumber: 22,
+      columnNumber: 15
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 19
+      lineNumber: 23,
+      columnNumber: 17
     }
   }, "Support Frontend Developers and Review their Work"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 19
+      lineNumber: 26,
+      columnNumber: 17
     }
   }, "Created Boilerplate for Frontend Admin, Frontend Web and Backend API"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 19
+      lineNumber: 29,
+      columnNumber: 17
     }
   }, "Build and Maintain Backend API"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 19
+      lineNumber: 32,
+      columnNumber: 17
     }
   }, "Build and Maintain: DevOp Staging and Production Server"))), __jsx("a", {
     className: "paper-btn",
@@ -243,25 +282,28 @@ var Projects = function Projects() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 15
+      lineNumber: 37,
+      columnNumber: 13
     }
   }, "Let me go here!"), __jsx("img", {
-    className: "image-bottom",
+    style: {
+      width: '100%',
+      height: 'auto'
+    },
     src: "https://www.dropbox.com/s/id5o14p3jl9sxxn/DrMarksHygenie.png?raw=1",
     alt: "Dr Mark's Hygenie",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 15
+      lineNumber: 44,
+      columnNumber: 13
     }
   }))), __jsx("div", {
     className: "col-md-6",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 55,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -269,67 +311,67 @@ var Projects = function Projects() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 13
+      lineNumber: 56,
+      columnNumber: 11
     }
-  }, __jsx("h4", {
-    className: "title",
+  }, __jsx("h1", {
+    className: "next-text title",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 15
+      lineNumber: 57,
+      columnNumber: 13
     }
   }, "Watermarquee.com"), __jsx("h5", {
     className: "card-subtitle",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 15
+      lineNumber: 58,
+      columnNumber: 13
     }
   }, "Lead Software Engineer"), __jsx("div", {
     className: "card-text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 15
+      lineNumber: 59,
+      columnNumber: 13
     }
   }, __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 17
+      lineNumber: 60,
+      columnNumber: 15
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 19
+      lineNumber: 61,
+      columnNumber: 17
     }
   }, "Support Frontend Developers and Review their Work"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 19
+      lineNumber: 64,
+      columnNumber: 17
     }
   }, "Build and Maintain Watermarking Fabricjs Application/Plugin"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 19
+      lineNumber: 67,
+      columnNumber: 17
     }
   }, "Build and Maintain: DevOp Staging and Production Server"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 19
+      lineNumber: 70,
+      columnNumber: 17
     }
   }, "Maintain: DevOp V1 Application for migration and legacy support"))), __jsx("a", {
     className: "paper-btn",
@@ -338,18 +380,21 @@ var Projects = function Projects() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
-      columnNumber: 15
+      lineNumber: 75,
+      columnNumber: 13
     }
   }, "Let me go here!"), __jsx("img", {
-    className: "image-bottom",
+    style: {
+      width: '100%',
+      height: 'auto'
+    },
     src: "https://www.dropbox.com/s/dtlaih6ackier6o/WaterMarquee.png?raw=1",
     alt: "Dr Mark's Hygenie",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 15
+      lineNumber: 82,
+      columnNumber: 13
     }
   })))));
 };
@@ -378,7 +423,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var Tools = function Tools() {
   return __jsx("div", {
     id: "projects",
-    className: "nes-container with-title is-rounded is-dark",
+    className: "container nes-container with-title is-rounded is-dark",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -387,6 +432,11 @@ var Tools = function Tools() {
     }
   }, __jsx("h2", {
     className: "title nes-text is-primary",
+    style: {
+      position: 'relative',
+      fontSize: 22,
+      top: -10
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -397,28 +447,28 @@ var Tools = function Tools() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 16,
       columnNumber: 7
     }
   }, "Arch for Desktop - Used on Ryzen 2400G + RX580 + 16GB RAM"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 17,
       columnNumber: 7
     }
   }, "Ubuntu for Server"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 18,
       columnNumber: 7
     }
   }, "VM Windows 10 - for test using KVM to passthrough GPU for development"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 19,
       columnNumber: 7
     }
   }, "OSX - Mac Mini building IOS's App"), __jsx("div", {
@@ -426,7 +476,7 @@ var Tools = function Tools() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 20,
       columnNumber: 7
     }
   }, __jsx("div", {
@@ -434,52 +484,24 @@ var Tools = function Tools() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 21,
       columnNumber: 9
     }
   }, __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 22,
       columnNumber: 11
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 13
-    }
-  }, "golang", __jsx("ul", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 15
-    }
-  }, __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 17
-    }
-  }, "gin"), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 17
-    }
-  }, "fiber -prefork"))), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 13
     }
-  }, "rust", __jsx("ul", {
+  }, "golang", __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -493,81 +515,109 @@ var Tools = function Tools() {
       lineNumber: 26,
       columnNumber: 17
     }
-  }, "actix"))), __jsx("li", {
+  }, "gin"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 27,
+      columnNumber: 17
+    }
+  }, "fiber -prefork"))), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
       columnNumber: 13
     }
-  }, "nodejs", __jsx("ul", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 15
-    }
-  }, __jsx("li", {
+  }, "rust", __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32,
-      columnNumber: 17
+      columnNumber: 15
     }
-  }, "fastify"), __jsx("li", {
+  }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
       columnNumber: 17
     }
-  }, "express"), __jsx("li", {
+  }, "actix"))), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 17
-    }
-  }, "hapi"))), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 36,
       columnNumber: 13
     }
-  }, "ruby", __jsx("ul", {
+  }, "nodejs", __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 38,
       columnNumber: 15
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 17
+    }
+  }, "fastify"), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 40,
       columnNumber: 17
     }
-  }, "padrino"), __jsx("li", {
+  }, "express"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41,
       columnNumber: 17
     }
+  }, "hapi"))), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 13
+    }
+  }, "ruby", __jsx("ul", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 17
+    }
+  }, "padrino"), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 17
+    }
   }, "senatra"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 49,
       columnNumber: 17
     }
   }, "rails"))), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 52,
       columnNumber: 13
     }
   }, "deno"))), __jsx("div", {
@@ -575,133 +625,133 @@ var Tools = function Tools() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 57,
       columnNumber: 9
     }
   }, __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 58,
       columnNumber: 11
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 59,
       columnNumber: 13
     }
   }, "typescript/", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 60,
       columnNumber: 26
     }
   }), "javascript", __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 61,
       columnNumber: 15
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 62,
       columnNumber: 17
     }
   }, "react", __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 64,
       columnNumber: 19
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 65,
       columnNumber: 21
     }
   }, "react-native"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 66,
       columnNumber: 21
     }
   }, "nextjs"))))), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 71,
       columnNumber: 13
     }
   }, "dart", __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 15
-    }
-  }, __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 17
-    }
-  }, "flutter"))), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 13
-    }
-  }, "css", __jsx("ul", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 15
-    }
-  }, __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 73,
-      columnNumber: 17
+      columnNumber: 15
     }
-  }, "bootstrap 4"), __jsx("li", {
+  }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 74,
       columnNumber: 17
     }
+  }, "flutter"))), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77,
+      columnNumber: 13
+    }
+  }, "css", __jsx("ul", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79,
+      columnNumber: 15
+    }
+  }, __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80,
+      columnNumber: 17
+    }
+  }, "bootstrap 4"), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 17
+    }
   }, "blueprintjs"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 82,
       columnNumber: 17
     }
   }, "fontawesome"))), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 85,
       columnNumber: 13
     }
   }, "c#"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81,
+      lineNumber: 88,
       columnNumber: 13
     }
   }, "gdscript"))), __jsx("div", {
@@ -709,56 +759,56 @@ var Tools = function Tools() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 93,
       columnNumber: 9
     }
   }, __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 94,
       columnNumber: 11
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 95,
       columnNumber: 13
     }
   }, "mongodb"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 96,
       columnNumber: 13
     }
   }, "mariadb"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 97,
       columnNumber: 13
     }
   }, "postgresql"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 98,
       columnNumber: 13
     }
   }, "redis"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 99,
       columnNumber: 13
     }
   }, "couchdb"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 100,
       columnNumber: 13
     }
   }, "nginx"))), __jsx("div", {
@@ -766,91 +816,91 @@ var Tools = function Tools() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 103,
       columnNumber: 9
     }
   }, __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 104,
       columnNumber: 11
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 105,
       columnNumber: 13
     }
   }, "vim"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 106,
       columnNumber: 13
     }
   }, "neovim"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 107,
       columnNumber: 13
     }
   }, "emac"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 108,
       columnNumber: 13
     }
   }, "doom emac"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 109,
       columnNumber: 13
     }
   }, "figma"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 110,
       columnNumber: 13
     }
   }, "robo3t"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 111,
       columnNumber: 13
     }
   }, "dbeaver"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 112,
       columnNumber: 13
     }
   }, "vscode"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 113,
       columnNumber: 13
     }
   }, "visualstudio - community"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 114,
       columnNumber: 13
     }
   }, "godot"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 115,
       columnNumber: 13
     }
   }, "unity3d")))));
@@ -928,47 +978,56 @@ var Home = function Home() {
     }
   }, __jsx("div", {
     className: "row",
+    style: {
+      marginBottom: 40
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 14,
       columnNumber: 5
     }
   }, __jsx(_components_profile__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 20,
       columnNumber: 7
     }
   })), __jsx("div", {
     className: "row",
+    style: {
+      marginBottom: 40
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 23,
       columnNumber: 5
     }
   }, __jsx(_components_projects__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 29,
       columnNumber: 7
     }
   })), __jsx("div", {
     className: "row",
+    style: {
+      marginBottom: 40
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 32,
       columnNumber: 5
     }
   }, __jsx(_components_tools__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 38,
       columnNumber: 7
     }
   })));
