@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/rmk.js"],{
 
 /***/ "./assets/rmk.json":
 /*!*************************!*\
@@ -414,21 +414,21 @@ var RMK = function RMK() {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fvimwarrior%2FXorkbench%2FProjects%2FLeivinceJohn%2FVimWarrior%2Fvimwarroior.io%2Fpages%2Findex.tsx!./":
-/*!*************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fvimwarrior%2FXorkbench%2FProjects%2FLeivinceJohn%2FVimWarrior%2Fvimwarroior.io%2Fpages%2Findex.tsx ***!
-  \*************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Frmk&absolutePagePath=%2Fhome%2Fvimwarrior%2FXorkbench%2FProjects%2FLeivinceJohn%2FVimWarrior%2Fvimwarroior.io%2Fpages%2Frmk.tsx!./":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Frmk&absolutePagePath=%2Fhome%2Fvimwarrior%2FXorkbench%2FProjects%2FLeivinceJohn%2FVimWarrior%2Fvimwarroior.io%2Fpages%2Frmk.tsx ***!
+  \**************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var mod = __webpack_require__(/*! ./pages/index.tsx */ "./pages/index.tsx")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/rmk", function() {
+      var mod = __webpack_require__(/*! ./pages/rmk.tsx */ "./pages/rmk.tsx")
       if(true) {
-        module.hot.accept(/*! ./pages/index.tsx */ "./pages/index.tsx", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.tsx */ "./pages/index.tsx")
-          next.router.update("/", updatedPage)
+        module.hot.accept(/*! ./pages/rmk.tsx */ "./pages/rmk.tsx", function() {
+          if(!next.router.components["/rmk"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/rmk.tsx */ "./pages/rmk.tsx")
+          next.router.update("/rmk", updatedPage)
         })
       }
       return mod
@@ -1336,10 +1336,10 @@ module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-
 
 /***/ }),
 
-/***/ "./pages/index.tsx":
-/*!*************************!*\
-  !*** ./pages/index.tsx ***!
-  \*************************/
+/***/ "./pages/rmk.tsx":
+/*!***********************!*\
+  !*** ./pages/rmk.tsx ***!
+  \***********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1350,7 +1350,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_profile__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/profile */ "./components/profile.tsx");
 /* harmony import */ var _components_rmk__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/rmk */ "./components/rmk.tsx");
 var _this = undefined,
-    _jsxFileName = "/home/vimwarrior/Xorkbench/Projects/LeivinceJohn/VimWarrior/vimwarroior.io/pages/index.tsx";
+    _jsxFileName = "/home/vimwarrior/Xorkbench/Projects/LeivinceJohn/VimWarrior/vimwarroior.io/pages/rmk.tsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -1409,14 +1409,14 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 2:
-/*!*****************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fvimwarrior%2FXorkbench%2FProjects%2FLeivinceJohn%2FVimWarrior%2Fvimwarroior.io%2Fpages%2Findex.tsx ***!
-  \*****************************************************************************************************************************************************************************/
+/***/ 3:
+/*!******************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Frmk&absolutePagePath=%2Fhome%2Fvimwarrior%2FXorkbench%2FProjects%2FLeivinceJohn%2FVimWarrior%2Fvimwarroior.io%2Fpages%2Frmk.tsx ***!
+  \******************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fvimwarrior%2FXorkbench%2FProjects%2FLeivinceJohn%2FVimWarrior%2Fvimwarroior.io%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fvimwarrior%2FXorkbench%2FProjects%2FLeivinceJohn%2FVimWarrior%2Fvimwarroior.io%2Fpages%2Findex.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Frmk&absolutePagePath=%2Fhome%2Fvimwarrior%2FXorkbench%2FProjects%2FLeivinceJohn%2FVimWarrior%2Fvimwarroior.io%2Fpages%2Frmk.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Frmk&absolutePagePath=%2Fhome%2Fvimwarrior%2FXorkbench%2FProjects%2FLeivinceJohn%2FVimWarrior%2Fvimwarroior.io%2Fpages%2Frmk.tsx!./");
 
 
 /***/ }),
@@ -1432,5 +1432,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=index.js.map
+},[[3,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=rmk.js.map
