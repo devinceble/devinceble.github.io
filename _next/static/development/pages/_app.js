@@ -4025,7 +4025,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/vimwarrior/Xorkbench/Projects/LeivinceJohn/VimWarrior/vimwarroior.io/pages/_app.tsx";
+var _jsxFileName = "/run/media/nvince/Projects/Projects/LeivinceJohn/VimWarrior/vimwarroior.io/pages/_app.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__["default"])(this, result); }; }
@@ -4127,7 +4127,7 @@ var AppMain = /*#__PURE__*/function (_App) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.tsx!./");
-module.exports = __webpack_require__(/*! /home/vimwarrior/Xorkbench/Projects/LeivinceJohn/VimWarrior/vimwarroior.io/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! /run/media/nvince/Projects/Projects/LeivinceJohn/VimWarrior/vimwarroior.io/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),

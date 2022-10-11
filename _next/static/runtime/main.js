@@ -941,7 +941,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/vimwarrior/Xorkbench/Projects/LeivinceJohn/VimWarrior/vimwarroior.io/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/run/media/nvince/Projects/Projects/LeivinceJohn/VimWarrior/vimwarroior.io/.next");
       return error;
     }
   };
